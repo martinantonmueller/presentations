@@ -1,0 +1,6605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This contains all correspondences sorted 
+in pieces/year and direction -->
+<network>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1888</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1889</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1890</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1890</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1891</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1891</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1891</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1891</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1891</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1891</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1891</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1891</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1891</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1891</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1891</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1891</year>
+      <weight>20</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1891</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1891</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1891</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1892</year>
+      <weight>24</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1892</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1892</year>
+      <weight>23</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1892</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1892</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1892</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1892</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1892</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1892</year>
+      <weight>12</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1892</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1892</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1892</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1892</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1892</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1892</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1892</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1893</year>
+      <weight>36</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1893</year>
+      <weight>24</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1893</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1893</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1893</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1893</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1893</year>
+      <weight>20</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1893</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1893</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1893</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1893</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1893</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1893</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1893</year>
+      <weight>23</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1893</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1893</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1893</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1894</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1894</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1894</year>
+      <weight>33</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1894</year>
+      <weight>28</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1894</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1894</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1894</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1894</year>
+      <weight>17</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1894</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1894</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1894</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1894</year>
+      <weight>27</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1894</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1894</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1895</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1895</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1895</year>
+      <weight>33</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1895</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1895</year>
+      <weight>20</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1895</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1895</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1895</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1895</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1895</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1895</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1895</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1895</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1895</year>
+      <weight>38</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1895</year>
+      <weight>22</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1895</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1895</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1896</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1896</year>
+      <weight>36</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1896</year>
+      <weight>19</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1896</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1896</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1896</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1896</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1896</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1896</year>
+      <weight>17</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1896</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1896</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1896</year>
+      <weight>35</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </target>
+      <year>1896</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1896</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1896</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1896</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1896</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1897</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1897</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1897</year>
+      <weight>35</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1897</year>
+      <weight>23</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1897</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1897</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1897</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1897</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1897</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1897</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1897</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1897</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1897</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1897</year>
+      <weight>39</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1897</year>
+      <weight>19</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1897</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1897</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1897</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1898</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1898</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1898</year>
+      <weight>27</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1898</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1898</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1898</year>
+      <weight>31</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1898</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1898</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1898</year>
+      <weight>28</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1898</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1898</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1898</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1898</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1898</year>
+      <weight>30</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1898</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1898</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1898</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1898</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1899</year>
+      <weight>33</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1899</year>
+      <weight>38</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1899</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1899</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1899</year>
+      <weight>23</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1899</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1899</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1899</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1899</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1899</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1899</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1899</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1899</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1899</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1899</year>
+      <weight>39</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </target>
+      <year>1899</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1899</year>
+      <weight>18</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1899</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1899</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1900</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1900</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1900</year>
+      <weight>25</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1900</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1900</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1900</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1900</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1900</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1900</year>
+      <weight>24</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1900</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1900</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1900</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1900</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1900</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1900</year>
+      <weight>47</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </target>
+      <year>1900</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1900</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1900</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1900</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1900</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1901</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1901</year>
+      <weight>12</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1901</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1901</year>
+      <weight>29</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1901</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1901</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1901</year>
+      <weight>17</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1901</year>
+      <weight>23</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1901</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1901</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1901</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1901</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1901</year>
+      <weight>47</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1901</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1901</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1901</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1902</year>
+      <weight>18</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1902</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1902</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1902</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1902</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1902</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1902</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1902</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1902</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1902</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1902</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1902</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1902</year>
+      <weight>46</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1902</year>
+      <weight>19</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1902</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1902</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1903</year>
+      <weight>18</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1903</year>
+      <weight>17</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1903</year>
+      <weight>22</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1903</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1903</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1903</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1903</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1903</year>
+      <weight>20</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1903</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1903</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1903</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1903</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1903</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1903</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1903</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1903</year>
+      <weight>33</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1903</year>
+      <weight>20</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1903</year>
+      <weight>12</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1903</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1903</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1904</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1904</year>
+      <weight>21</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1904</year>
+      <weight>39</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1904</year>
+      <weight>21</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1904</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1904</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1904</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1904</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1904</year>
+      <weight>21</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1904</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1904</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1904</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1904</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1904</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1904</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1904</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1904</year>
+      <weight>20</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1904</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1904</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1904</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1905</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1905</year>
+      <weight>12</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1905</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1905</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1905</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1905</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1905</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1905</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1905</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1905</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1905</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1905</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1905</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1905</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1905</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1905</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1905</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1906</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1906</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1906</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1906</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1906</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1906</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1906</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1906</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1906</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1906</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1906</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1906</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1906</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1906</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1906</year>
+      <weight>24</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1906</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1906</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1907</year>
+      <weight>22</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1907</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1907</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1907</year>
+      <weight>16</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1907</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1907</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1907</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1907</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1907</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1907</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1907</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1907</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1907</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1907</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1907</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </target>
+      <year>1907</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1907</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1907</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1907</year>
+      <weight>15</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1907</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1907</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1907</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1908</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1908</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1908</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1908</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1908</year>
+      <weight>18</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1908</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1908</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1908</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1908</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1908</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1908</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1908</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1908</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1908</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1909</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1909</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1909</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1909</year>
+      <weight>17</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1909</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1909</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1909</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1909</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1909</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1909</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1909</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1909</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1909</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1909</year>
+      <weight>11</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1909</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1909</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1910</year>
+      <weight>13</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1910</year>
+      <weight>12</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1910</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1910</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1910</year>
+      <weight>21</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1910</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1910</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1910</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1910</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1910</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1910</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1910</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1910</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1911</year>
+      <weight>9</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1911</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1911</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1911</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1911</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1911</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1911</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1911</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </target>
+      <year>1911</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1911</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1911</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1911</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1912</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1912</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1912</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1912</year>
+      <weight>12</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1912</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1912</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1912</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1912</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1912</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1912</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1913</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1913</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1913</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1913</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1913</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1913</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1913</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1913</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1913</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1914</year>
+      <weight>12</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1914</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1914</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1914</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1914</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1914</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1914</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1914</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1914</year>
+      <weight>10</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1914</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1914</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1914</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1914</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1914</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1914</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1915</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1915</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1915</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1915</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1915</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1915</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1915</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1915</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1915</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1915</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1915</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1915</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1916</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1916</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1916</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1916</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1916</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1916</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1916</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1916</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1916</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1917</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1917</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1917</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1917</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1917</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1917</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1917</year>
+      <weight>7</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1917</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1917</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1917</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1917</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1918</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1918</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1918</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1918</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1918</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1918</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1918</year>
+      <weight>14</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1918</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1918</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1918</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1918</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1918</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1919</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1919</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1919</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1919</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1919</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1919</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1919</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1919</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1919</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1919</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1919</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1920</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1920</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1920</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1920</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1920</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1920</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1921</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1921</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1921</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1921</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1921</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1921</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1921</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1921</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1921</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1921</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1922</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1922</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1922</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1922</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1922</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1922</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1922</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1922</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1922</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1922</year>
+      <weight>6</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1923</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1923</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1923</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1923</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1923</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1923</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1923</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1923</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1923</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1923</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1924</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1924</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1924</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1924</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1924</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1925</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1925</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1925</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1925</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1925</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1925</year>
+      <weight>8</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1925</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1925</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1925</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1925</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </target>
+      <year>1925</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1925</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1925</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1925</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1926</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1926</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1926</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1926</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1926</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1926</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1926</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1926</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1927</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1927</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1927</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1927</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1927</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1927</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1927</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1927</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1927</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1927</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </target>
+      <year>1927</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1927</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1927</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1927</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1928</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1928</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1928</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1928</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1928</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1928</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1928</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1928</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1929</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1929</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1929</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </source>
+      <target>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </target>
+      <year>1929</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1929</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1929</year>
+      <weight>4</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1930</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1930</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1930</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1930</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1930</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1930</year>
+      <weight>5</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Richard Beer-Hofmann</name>
+         <id>10863</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1931</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </target>
+      <year>1931</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Hermann Bahr</name>
+         <id>10815</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1931</year>
+      <weight>1</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1931</year>
+      <weight>3</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </source>
+      <target>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </target>
+      <year>1931</year>
+      <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Felix Salten</name>
+         <id>2167</id>
+      </source>
+      <target>
+         <name>Arthur Schnitzler</name>
+         <id>2121</id>
+      </target>
+      <year>1931</year>
+      <weight>1</weight>
+   </connection>
+</network>

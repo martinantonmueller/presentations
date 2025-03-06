@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const csvUrl = 'https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-charts/main/netzwerke/jung-wien-exp/jung-wien-ist-alle-per-year.csv';
+    const csvUrl = 'https://raw.githubusercontent.com/martinantonmueller/presentations/refs/heads/main/2025-03-20_innsbruck/csv/staerkere-seite.csv';
     
     // Gemeinsame Konstanten für das Diagramm
     const nodeColor = '#3785A6',
