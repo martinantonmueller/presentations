@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Liste der verfügbaren CSV-Dateien
     const csvFiles = {
         "Archivstücke": "https://raw.githubusercontent.com/martinantonmueller/presentations/refs/heads/main/2025-03-20_innsbruck/csv/archivstuecke.csv",
-        "Stärkere Seite": "https://raw.githubusercontent.com/martinantonmueller/presentations/refs/heads/main/2025-03-20_innsbruck/csv/staerkere-seite.csv"
+        "Verhältnis 1:1": "https://raw.githubusercontent.com/martinantonmueller/presentations/refs/heads/main/2025-03-20_innsbruck/csv/staerkere-seite.csv"
     };
 
     // Wir speichern für jede Instanz die Update-Funktion

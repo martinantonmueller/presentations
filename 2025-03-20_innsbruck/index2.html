@@ -27,20 +27,23 @@
     <div class="hfeed site" id="page">
       <div class="container-fluid">
         <div>
-          <h2 align="center" class="mt-5">Korrespondenznetzwerk Jung-Wien</h2>
+          <h2 align="center" class="mt-5 mb-5">Korrespondenznetzwerk Jung-Wien</h2>
         </div>
-        <!-- Globales Jahresfeld (als URL-Parameter steuerbar) -->
-        <div style="text-align: center; margin-bottom: 10px;">
-          <label for="globalYearField">Jahr: </label>
-          <input type="number" id="globalYearField" min="1890" max="1931" value="1890" step="1" style="display: inline-block;"/>
-        </div>
+       
         <div class="card-body-index">
           <!-- Zwei Chart-Container -->
           <div style="display: flex; width: 100%; gap: 20px;">
             <div id="container-mit-slider-left" style="flex: 1;"></div>
             <div id="container-mit-slider-right" style="flex: 1;"></div>
           </div>
+
+           <!-- Globales Jahresfeld (als URL-Parameter steuerbar) -->
+        <div class="mt-10 mb-5" style="text-align: center;;">
+            <label for="globalYearField">Jahr: </label>
+            <input type="number" id="globalYearField" min="1890" max="1931" value="1890" step="1" style="display: inline-block;"/>
+          </div>
         </div>
+
       </div>
       <script src="js/jung-wien-exp-charts-mit-slider.js"></script>
     </div>

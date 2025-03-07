@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+    <pair order="direct" key="11485|2121">
+        <person id="11485">Paul Goldmann</person>
+        <person id="2121">Arthur Schnitzler</person>
+        <coefficient>52.70</coefficient>
+    </pair>
+    <pair order="reverse" key="11485|2121">
+        <person id="2121">Arthur Schnitzler</person>
+        <person id="11485">Paul Goldmann</person>
+        <coefficient>0.02</coefficient>
+    </pair>
+    <pair order="direct" key="10863|11740">
+        <person id="10863">Richard Beer-Hofmann</person>
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <coefficient>0.21</coefficient>
+    </pair>
+    <pair order="reverse" key="10863|11740">
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <person id="10863">Richard Beer-Hofmann</person>
+        <coefficient>4.80</coefficient>
+    </pair>
+    <pair order="direct" key="11740|2121">
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <person id="2121">Arthur Schnitzler</person>
+        <coefficient>2.44</coefficient>
+    </pair>
+    <pair order="reverse" key="11740|2121">
+        <person id="2121">Arthur Schnitzler</person>
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <coefficient>0.41</coefficient>
+    </pair>
+    <pair order="direct" key="10863|2121">
+        <person id="10863">Richard Beer-Hofmann</person>
+        <person id="2121">Arthur Schnitzler</person>
+        <coefficient>0.54</coefficient>
+    </pair>
+    <pair order="reverse" key="10863|2121">
+        <person id="2121">Arthur Schnitzler</person>
+        <person id="10863">Richard Beer-Hofmann</person>
+        <coefficient>1.87</coefficient>
+    </pair>
+    <pair order="direct" key="10815|2121">
+        <person id="10815">Hermann Bahr</person>
+        <person id="2121">Arthur Schnitzler</person>
+        <coefficient>1.32</coefficient>
+    </pair>
+    <pair order="reverse" key="10815|2121">
+        <person id="2121">Arthur Schnitzler</person>
+        <person id="10815">Hermann Bahr</person>
+        <coefficient>0.76</coefficient>
+    </pair>
+    <pair order="direct" key="10815|11740">
+        <person id="10815">Hermann Bahr</person>
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <coefficient>0.38</coefficient>
+    </pair>
+    <pair order="reverse" key="10815|11740">
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <person id="10815">Hermann Bahr</person>
+        <coefficient>2.64</coefficient>
+    </pair>
+    <pair order="direct" key="10815|10863">
+        <person id="10815">Hermann Bahr</person>
+        <person id="10863">Richard Beer-Hofmann</person>
+        <coefficient>6.08</coefficient>
+    </pair>
+    <pair order="reverse" key="10815|10863">
+        <person id="10863">Richard Beer-Hofmann</person>
+        <person id="10815">Hermann Bahr</person>
+        <coefficient>0.16</coefficient>
+    </pair>
+    <pair order="direct" key="11740|2167">
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <person id="2167">Felix Salten</person>
+        <coefficient>2.81</coefficient>
+    </pair>
+    <pair order="reverse" key="11740|2167">
+        <person id="2167">Felix Salten</person>
+        <person id="11740">Hugo von Hofmannsthal</person>
+        <coefficient>0.36</coefficient>
+    </pair>
+    <pair order="direct" key="2121|2167">
+        <person id="2121">Arthur Schnitzler</person>
+        <person id="2167">Felix Salten</person>
+        <coefficient>0.34</coefficient>
+    </pair>
+    <pair order="reverse" key="2121|2167">
+        <person id="2167">Felix Salten</person>
+        <person id="2121">Arthur Schnitzler</person>
+        <coefficient>2.97</coefficient>
+    </pair>
+    <pair order="direct" key="10863|11485">
+        <person id="10863">Richard Beer-Hofmann</person>
+        <person id="11485">Paul Goldmann</person>
+    </pair>
+    <pair order="reverse" key="10863|11485">
+        <person id="11485">Paul Goldmann</person>
+        <person id="10863">Richard Beer-Hofmann</person>
+    </pair>
+    <pair order="direct" key="10863|2167">
+        <person id="10863">Richard Beer-Hofmann</person>
+        <person id="2167">Felix Salten</person>
+    </pair>
+    <pair order="reverse" key="10863|2167">
+        <person id="2167">Felix Salten</person>
+        <person id="10863">Richard Beer-Hofmann</person>
+    </pair>
+    <pair order="direct" key="10815|2167">
+        <person id="10815">Hermann Bahr</person>
+        <person id="2167">Felix Salten</person>
+        <coefficient>0.73</coefficient>
+    </pair>
+    <pair order="reverse" key="10815|2167">
+        <person id="2167">Felix Salten</person>
+        <person id="10815">Hermann Bahr</person>
+        <coefficient>1.38</coefficient>
+    </pair>
+    <pair order="direct" key="10815|11485">
+        <person id="10815">Hermann Bahr</person>
+        <person id="11485">Paul Goldmann</person>
+    </pair>
+    <pair order="reverse" key="10815|11485">
+        <person id="11485">Paul Goldmann</person>
+        <person id="10815">Hermann Bahr</person>
+    </pair>
+</results>
