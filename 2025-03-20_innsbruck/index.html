@@ -36,17 +36,17 @@
                             <div style="width: 40%; margin: auto; display: flex; flex-direction: column; height: 500px;">
                                 <div id="container-ohne-slider" style="width: 100%; flex-grow: 1;"></div>
                                 <div style="width: 100%; height: 55px;"></div>
-                                <figcaption style="text-align: center;">Alle Korrespondenzen nach Archivzeugen. Einschränkungen:
-                                    keine Umfeldbriefe, keine Berücksichtigung der Brieflänge
-                                </figcaption>
+                                <figcaption style="text-align: center;">Alle Korrespondenzen (1890–1934)</figcaption>
                           </div>
                             <div style="width: 40%; margin: auto; display: flex; flex-direction: column; height: 500px;">
                                 <div id="container-mit-slider" style="width: 100%; flex-grow: 1;"></div>
-                                <div style="width: 100%; text-align: center; margin-top: 5px;">
-                                    <input type="range" id="yearSlider" min="1890" max="1931" value="1900" step="1" style="display: block; margin: 0 auto;"/>
-                                    <span id="yearDisplay" style="display: block; margin-top: 2px;">1900</span>
-                                </div>
-                                <figcaption style="text-align: center; margin-top: auto;">Abb. 1b: Alle Korrespondenzen nach Archivzeugen mit Jahresauswahl</figcaption>
+                                
+    <div id="container-mit-slider" style="width: 100%; flex-grow: 1;"></div>
+    <div style="width: 100%; text-align: center; margin-top: 5px;">
+        <!-- Zahlenfeld statt Slider -->
+        <input type="number" id="yearField" min="1890" max="1931" value="1890" step="1" style="display: block; margin: 0 auto;"/>
+    </div>
+                                <figcaption style="text-align: center; margin-top: auto;">Korrespondenzen mit Jahresauswahl</figcaption>
                             </div> 
                         </div>
                         <script src="js/jung-wien-exp-charts-ohne-slider.js"></script>

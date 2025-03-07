@@ -9,7 +9,7 @@
     
     <!-- Es wird nur der Wert ausgegeben, der stärker ist.
          Also, wenn in einer Korrespondenz z.B. 5 Briefe von source an target
-         und 4 in die Gegenrichtung vorhanden sind, wird nur der mit Gewicht 5 ausgegeben. -->
+         und 4 in die Gegenrichtung vorhanden sind, wird nur der mit Gewicht doppelt ausgegeben. -->
     
     <xsl:variable name="quote" select="'&quot;'"/>
     <xsl:variable name="separator" select="','"/>
@@ -92,7 +92,7 @@
                 
                 <!-- weight -->
                 <xsl:value-of select="$quote"/>
-                <xsl:value-of select="*:weight"/>
+                <xsl:value-of select="number(*:weight) * 2"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$newline"/>
             </xsl:if>

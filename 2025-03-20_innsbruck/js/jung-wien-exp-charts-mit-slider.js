@@ -1,81 +1,119 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Document is ready');
-    
+
+    // Liste der verfügbaren CSV-Dateien
+    const csvFiles = {
+        "Archivstücke": "https://raw.githubusercontent.com/martinantonmueller/presentations/refs/heads/main/2025-03-20_innsbruck/csv/archivstuecke.csv",
+        "Stärkere Seite": "https://raw.githubusercontent.com/martinantonmueller/presentations/refs/heads/main/2025-03-20_innsbruck/csv/staerkere-seite.csv"
+    };
+
+    // Dropdown zur CSV-Auswahl erstellen
+    const csvDropdown = document.createElement('select');
+    csvDropdown.id = 'csvDropdown';
+    for (const [label, url] of Object.entries(csvFiles)) {
+        const option = document.createElement('option');
+        option.value = url;
+        option.textContent = label;
+        csvDropdown.appendChild(option);
+    }
+    // Dropdown oberhalb des Chart-Containers einfügen
     const containerMitSlider = document.getElementById('container-mit-slider');
+    containerMitSlider.parentNode.insertBefore(csvDropdown, containerMitSlider);
+
+    // Container-Styles festlegen
     containerMitSlider.style.display = 'flex';
     containerMitSlider.style.justifyContent = 'center';
     containerMitSlider.style.alignItems = 'center';
     containerMitSlider.style.width = '100%';
-    containerMitSlider.style.height = '600px'; // Ensures a fixed height
-    
-    const slider = document.getElementById('yearSlider');
-    const yearDisplay = document.getElementById('yearDisplay');
-    
+    containerMitSlider.style.height = '600px'; // Feste Höhe
+
+    // Statt des Sliders nutzen wir hier das Zahlenfeld
+    const yearField = document.getElementById('yearField');
+
+    // Funktion zum Anpassen der Container-Größe
     const resizeChartContainer = () => {
         if (containerMitSlider) {
             containerMitSlider.style.width = '100%';
             containerMitSlider.style.height = window.innerHeight * 0.6 + 'px';
             containerMitSlider.style.margin = '0';
-            window.chartMitSlider ?.reflow();
+            window.chartMitSlider?.reflow();
         } else {
             console.error('Container not found');
         }
     };
-    
+
     resizeChartContainer();
     window.addEventListener('resize', resizeChartContainer);
-    
-    let dataByYear = {
-    };
-    
+
+    let dataByYear = {};
+
+    // Funktion zum Laden der CSV-Datei
     const loadCSV = (csvUrl) => {
-        fetch(csvUrl).then(response => response.ok ? response.text(): Promise.reject('Network response was not ok ' + response.statusText)).then(csvText => {
-            console.log('CSV file content:', csvText);
-            
-            Papa.parse(csvText, {
-                header: true,
-                complete: ({ data
-                }) => {
-                    if (! data.length) return console.error('Parsed data is empty or incorrectly formatted');
-                    
-                    dataByYear = data.reduce((acc, row) => {
-                        const year = parseInt(row.Year, 10);
-                        if (! acc[year]) acc[year] =[];
-                        acc[year].push(row);
-                        return acc;
-                    }, {
-                    });
-                    
-                    console.log('Data for 1890:', dataByYear[1890]);
-                    
-                    slider.min = 1890;
-                    slider.max = 1931;
-                    slider.value = 1900;
-                    yearDisplay.textContent = 1900;
-                    
-                    // Create initial chart after a brief delay to ensure the container is fully ready
-                    setTimeout(() => {
-                        createChartForYear(1900);
-                        forceRedraw();
+        fetch(csvUrl)
+            .then(response => response.ok ? response.text() : Promise.reject('Network response was not ok ' + response.statusText))
+            .then(csvText => {
+                console.log('CSV file content:', csvText);
+                Papa.parse(csvText, {
+                    header: true,
+                    complete: ({ data }) => {
+                        if (!data.length) {
+                            console.error('Parsed data is empty or incorrectly formatted');
+                            return;
+                        }
+                        // Gruppiere Daten nach Jahr
+                        dataByYear = data.reduce((acc, row) => {
+                            const rawYear = row.Year;
+                            if (!rawYear) {
+                                console.warn('Zeile ohne Year-Wert:', row);
+                                return acc;
+                            }
+                            const year = parseInt(rawYear, 10);
+                            if (isNaN(year)) {
+                                console.warn('Ungültiger Jahr-Wert:', rawYear, row);
+                                return acc;
+                            }
+                            if (!acc[year]) acc[year] = [];
+                            acc[year].push(row);
+                            return acc;
+                        }, {});
+
+                        // Ermittle verfügbare Jahre
+                        const years = Object.keys(dataByYear).map(y => parseInt(y, 10));
+                        if (years.length === 0) {
+                            console.error('Keine gültigen Jahr-Werte in der CSV gefunden.');
+                            return;
+                        }
+                        const minYear = Math.min(...years);
+                        const maxYear = Math.max(...years);
+                        // Setze min, max und Standardwert (1890 falls möglich)
+                        yearField.min = minYear;
+                        yearField.max = maxYear;
+                        yearField.value = (minYear <= 1890 && 1890 <= maxYear) ? 1890 : minYear;
+
+                        // Erstelle initial den Chart
+                        setTimeout(() => {
+                            createChartForYear(parseInt(yearField.value, 10));
+                            forceRedraw();
+                        }, 100);
                     },
-                    100);
-                },
-                error: error => console.error('Error parsing the CSV file:', error)
-            });
-        }). catch (error => console.error('Error loading the CSV file:', error));
+                    error: error => console.error('Error parsing the CSV file:', error)
+                });
+            })
+            .catch(error => console.error('Error loading the CSV file:', error));
     };
-    
+
+    // Funktion zur Erstellung des Charts für ein bestimmtes Jahr
     const createChartForYear = (year) => {
         console.log(`Creating chart for year: ${year}`);
-        const nodes = {
-        },
-        links =[], nodeCorrespondences = {
-        },
-        nodeWeightSums = {
-        };
-        const[nodeColor, linkColor, minNodeSize, maxNodeSize, minLinkWidth, maxLinkWidth] =[ '#3785A6', '#A63437', 5, 20, 0.1, 10];
-        const yearData = dataByYear[year] ||[];
-        
+        const nodes = {},
+            links = [],
+            nodeCorrespondences = {},
+            nodeWeightSums = {};
+        const [nodeColor, linkColor, minNodeSize, maxNodeSize, minLinkWidth, maxLinkWidth] =
+            ['#3785A6', '#A63437', 5, 20, 0.1, 10];
+        const yearData = dataByYear[year] || [];
+
+        // Vordefinierte Links für Nodes
         const nodeLinks = {
             "Hugo von Hofmannsthal": "https://schnitzler-briefe.acdh.oeaw.ac.at/toc_11740.html",
             "Richard Beer-Hofmann": "https://schnitzler-briefe.acdh.oeaw.ac.at/toc_10863.html",
@@ -83,16 +121,18 @@ document.addEventListener('DOMContentLoaded', () => {
             "Felix Salten": "https://schnitzler-briefe.acdh.oeaw.ac.at/toc_2167.html",
             "Paul Goldmann": "https://schnitzler-briefe.acdh.oeaw.ac.at/toc_11485.html"
         };
-        
+
         yearData.forEach(row => {
-            const[source, target, weight] =[
-            row.Source ?.trim(),
-            row.Target ?.trim(),
-            parseInt(row.Weight, 10) || 0];
-            
-            if (! source || ! target) return console.warn('Row missing source or target:', row);
-            
-            if (! nodes[source]) {
+            const source = row.Source?.trim();
+            const target = row.Target?.trim();
+            const weight = parseInt(row.Weight, 10) || 0;
+
+            if (!source || !target) {
+                console.warn('Row missing source or target:', row);
+                return;
+            }
+
+            if (!nodes[source]) {
                 nodes[source] = {
                     id: source,
                     marker: {
@@ -100,12 +140,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     url: nodeLinks[source] || null
                 };
-                nodeCorrespondences[source] = {
-                };
+                nodeCorrespondences[source] = {};
                 nodeWeightSums[source] = 0;
             }
-            
-            if (! nodes[target]) {
+            if (!nodes[target]) {
                 nodes[target] = {
                     id: target,
                     marker: {
@@ -113,17 +151,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     url: nodeLinks[target] || null
                 };
-                nodeCorrespondences[target] = {
-                };
+                nodeCorrespondences[target] = {};
                 nodeWeightSums[target] = 0;
             }
-            
+
             nodeCorrespondences[source][target] = (nodeCorrespondences[source][target] || 0) + weight;
             nodeCorrespondences[target][source] = (nodeCorrespondences[target][source] || 0) + weight;
-            
+
             nodeWeightSums[source] += weight;
             nodeWeightSums[target] += weight;
-            
+
             links.push({
                 from: source,
                 to: target,
@@ -132,27 +169,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 width: weight
             });
         });
-        
+
         const allNodes = Object.values(nodes);
-        
-        if (! allNodes.length || ! links.length) return console.error('Nodes or links arrays are empty');
-        
+        if (!allNodes.length || !links.length) {
+            console.error('Nodes or links arrays are empty');
+            return;
+        }
+
+        // Skalierung der Node-Größen
         const minNodeWeight = Math.min(...Object.values(nodeWeightSums));
         const maxNodeWeight = Math.max(...Object.values(nodeWeightSums));
-        
         allNodes.forEach(node => {
             const totalWeight = nodeWeightSums[node.id];
             const normalizedSize = minNodeSize + ((totalWeight - minNodeWeight) / (maxNodeWeight - minNodeWeight)) * (maxNodeSize - minNodeSize);
             node.marker.radius = normalizedSize;
         });
-        
+
+        // Skalierung der Link-Dicken
         const minLinkWeight = Math.min(...links.map(link => link.value));
         const maxLinkWeight = Math.max(...links.map(link => link.value));
-        
         links.forEach(link => {
             link.width = minLinkWidth + ((link.value - minLinkWeight) / (maxLinkWeight - minLinkWeight)) * (maxLinkWidth - minLinkWidth);
         });
-        
+
+        // Erstellung des Charts mit Highcharts
         window.chartMitSlider = Highcharts.chart('container-mit-slider', {
             chart: {
                 type: 'networkgraph',
@@ -168,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tooltip: {
                 formatter: function () {
                     if (this.point.isNode) {
-                        const correspondences = nodeCorrespondences[ this.point.id];
+                        const correspondences = nodeCorrespondences[this.point.id];
                         let tooltipText = `<b>${this.point.id}</b>`;
                         for (const target in correspondences) {
                             tooltipText += `<br>Briefe mit ${target}: ${correspondences[target]}`;
@@ -180,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             plotOptions: {
                 networkgraph: {
-                    keys:[ 'from', 'to'],
+                    keys: ['from', 'to'],
                     layoutAlgorithm: {
                         initialPositions: 'circle',
                         enableSimulation: true,
@@ -205,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
             },
-            series:[ {
+            series: [{
                 dataLabels: {
                     enabled: true,
                     linkFormat: '',
@@ -233,23 +273,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 enabled: false
             }
         });
-        
-        // Force redraw to ensure the chart renders correctly
+
+        // Erzwinge die Neuzeichnung des Charts
         forceRedraw();
     };
-    
+
+    // Funktion zur Erzwingung des Redraws
     const forceRedraw = () => {
         if (window.chartMitSlider) {
             window.chartMitSlider.reflow();
-            // Forces the chart to redraw and fit within its container
         }
     };
-    
-    slider.addEventListener('input', () => {
-        const year = parseInt(slider.value, 10);
-        yearDisplay.textContent = year;
+
+    // Event-Listener für das Zahlenfeld (Jahresauswahl)
+    yearField.addEventListener('input', () => {
+        const year = parseInt(yearField.value, 10);
         createChartForYear(year);
     });
-    
-    loadCSV('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-charts/main/netzwerke/jung-wien-exp/jung-wien-ist-alle-per-year.csv');
+
+    // Event-Listener für das CSV-Dropdown
+    csvDropdown.addEventListener('change', () => {
+        const selectedCsvUrl = csvDropdown.value;
+        loadCSV(selectedCsvUrl);
+    });
+
+    // Initiale CSV-Ladung anhand der ersten Option im Dropdown
+    loadCSV(csvDropdown.value);
 });
