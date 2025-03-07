@@ -18,7 +18,7 @@
     <xsl:variable name="newline" select="'&#xA;'"/>
     
     <xsl:template match="*:network">
-        <xsl:result-document href="../csv/archivstuecke.csv">
+        <xsl:result-document href="../csv/schnitzler-koeffizient.csv">
             <xsl:text>Source</xsl:text>
             <xsl:value-of select="$separator"/>
             <xsl:text>SourceID</xsl:text>
