@@ -5,6 +5,7 @@
     
     <xsl:mode on-no-match="shallow-skip"/>
     
+    
     <!-- this template creates a csv file for network analysis 
          containing information about the correspondences between 
          arthur schnitzler, hermann bahr, richard beer-hofmann, hugo von hofmannsthal, paul goldmann and felix salten -->
