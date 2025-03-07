@@ -83,23 +83,25 @@
                 <!-- weight -->
                 <xsl:value-of select="$quote"/>
                 <xsl:choose>
-                    <xsl:when test="*:target/*:id='2121'"><!-- bei Schnitzler bleiben die Werte gleich -->
-                        <xsl:value-of select="*:weight"/>
+                    <xsl:when test="*:target/*:id='2121'">
+                        <!-- bei Schnitzler bleiben die Werte gleich -->
+                        <xsl:value-of select="round(*:weight)"/>
                     </xsl:when>
-                    <xsl:when test="*:target/*:id='10863' and *:source/*:id='11485'"><!-- bei Beer-Hofmann an Goldmann wird nochmals mit 1,75 multipliziert-->
-                       <xsl:value-of select="*:weight * 1,75"/> 
+                    <xsl:when test="*:target/*:id='10863' and *:source/*:id='11485'">
+                        <!-- bei Beer-Hofmann an Goldmann wird nochmals mit 1.75 multipliziert -->
+                        <xsl:value-of select="round(*:weight * 1.75)"/> 
                     </xsl:when>
                     <xsl:when test="*:target/*:id='11740'">
-                        <xsl:value-of select="*:weight div 0.41"/>
+                        <xsl:value-of select="round(*:weight div 0.41)"/>
                     </xsl:when>
                     <xsl:when test="*:target/*:id='10815'">
-                        <xsl:value-of select="*:weight div 0.76"/>
+                        <xsl:value-of select="round(*:weight div 0.76)"/>
                     </xsl:when>
                     <xsl:when test="*:target/*:id='2167'">
-                        <xsl:value-of select="*:weight div 0.34"/>
+                        <xsl:value-of select="round(*:weight div 0.34)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="*:weight"/>
+                        <xsl:value-of select="round(*:weight)"/>
                     </xsl:otherwise>
                 </xsl:choose>
                 <xsl:value-of select="$quote"/>
