@@ -47,7 +47,7 @@
                     </person>
                     <xsl:if test="$sumForward gt 0 and $sumBackward gt 0">
                         <coefficient>
-                            <xsl:value-of select="format-number($sumForward div $sumBackward, '0.00')"/>
+                            <xsl:value-of select="format-number(($sumBackward * 100) div $sumForward, '0.00')"/>
                         </coefficient>
                     </xsl:if>
                 </pair>
@@ -64,7 +64,7 @@
                     </person>
                     <xsl:if test="$sumForward gt 0 and $sumBackward gt 0">
                         <coefficient>
-                            <xsl:value-of select="format-number($sumBackward div $sumForward, '0.00')"/>
+                            <xsl:value-of select="format-number(($sumForward * 100) div $sumBackward, '0.00')"/>
                         </coefficient>
                     </xsl:if>
                 </pair>

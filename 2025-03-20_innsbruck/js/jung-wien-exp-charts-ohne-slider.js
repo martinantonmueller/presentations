@@ -179,7 +179,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                             enabled: true,
                                             linkFormat: '',
                                             allowOverlap: false,
-                                            style: { textOutline: 'none' },
+                                            style: { textOutline: 'none',
+                                            fontSize: '20px' },
                                             formatter: function () { return this.point.id; }
                                         },
                                         link: {
@@ -193,7 +194,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                         enabled: true,
                                         linkFormat: '',
                                         allowOverlap: false,
-                                        style: { textOutline: 'none' },
+                                        style: { textOutline: 'none',
+                                        fontSize: '20px' },
                                         formatter: function () { return this.point.id; }
                                     },
                                     nodes: allNodes,

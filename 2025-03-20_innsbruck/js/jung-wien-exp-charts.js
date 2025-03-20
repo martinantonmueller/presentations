@@ -115,7 +115,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         enabled: true,
                         linkFormat: '',
                         allowOverlap: false,
-                        style: { textOutline: 'none' },
+                        style: {
+                            textOutline: 'none',
+                            fontSize: '30px'  // Hier die gewünschte Schriftgröße angeben
+                          },
                         formatter: function () {
                             return this.point.id;
                         }
@@ -131,7 +134,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     enabled: true,
                     linkFormat: '',
                     allowOverlap: false,
-                    style: { textOutline: 'none' },
+                    style: {
+        textOutline: 'none',
+        fontSize: '30px'  // Hier die gewünschte Schriftgröße angeben
+    },
                     formatter: function () {
                         return this.point.id;
                     }
