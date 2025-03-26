@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                     }
                 }],
-                exporting: { enabled: false }
+                exporting: { enabled: true }
             });
             forceRedraw();
         };

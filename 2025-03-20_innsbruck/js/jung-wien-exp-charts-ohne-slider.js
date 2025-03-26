@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                         }
                                     }
                                 }],
-                                exporting: { enabled: false }
+                                exporting: { enabled: true }
                             });
                         },
                         error: error => console.error('Error parsing the CSV file:', error)
