@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Gemeinsame Konstanten für das Diagramm
-    const nodeColor = '#3785A6',
-          linkColor = '#A63437',
+    const nodeColor = '#000000',
+          linkColor = '#000000',
           minNodeSize = 5,
           maxNodeSize = 20,
           minLinkWidth = 0.1,

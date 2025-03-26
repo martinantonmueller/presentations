@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                   nodeCorrespondences = {},
                                   nodeWeightSums = {};
                             const [nodeColor, linkColor, minNodeSize, maxNodeSize, minLinkWidth, maxLinkWidth] =
-                                  ['#3785A6', '#A63437', 5, 20, 0.1, 10];
+                                  ['#000000', '#000000', 5, 20, 0.1, 10];
 
                             // Mapping für spezielle URLs
                             const nodeLinks = {

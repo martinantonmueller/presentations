@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   nodeCorrespondences = {},
                   nodeWeightSums = {};
             const [nodeColor, linkColor, minNodeSize, maxNodeSize, minLinkWidth, maxLinkWidth] =
-                  ['#3785A6', '#A63437', 5, 20, 0.1, 10];
+                  ['#000000', '#000000', 5, 20, 0.1, 10];
             const yearData = dataByYear[year] || [];
 
             // Vordefinierte Links für Nodes
