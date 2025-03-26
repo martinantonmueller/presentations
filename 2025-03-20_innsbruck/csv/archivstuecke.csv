@@ -18,6 +18,7 @@ Source,SourceID,Target,TargetID,Year,Type,Label,Weight
 "Arthur Schnitzler","2121","Felix Salten","Felix Salten","1891","Directed","Arthur Schnitzler an Felix Salten","3"
 "Felix Salten","2167","Arthur Schnitzler","Arthur Schnitzler","1891","Directed","Felix Salten an Arthur Schnitzler","7"
 "Paul Goldmann","11485","Richard Beer-Hofmann","Richard Beer-Hofmann","1891","Directed","Paul Goldmann an Richard Beer-Hofmann","2"
+"Paul Goldmann","11485","Hugo von Hofmannsthal","Hugo von Hofmannsthal","1891","Directed","Paul Goldmann an Hugo von Hofmannsthal","1"
 "Hugo von Hofmannsthal","11740","Arthur Schnitzler","Arthur Schnitzler","1892","Directed","Hugo von Hofmannsthal an Arthur Schnitzler","24"
 "Richard Beer-Hofmann","10863","Arthur Schnitzler","Arthur Schnitzler","1892","Directed","Richard Beer-Hofmann an Arthur Schnitzler","10"
 "Arthur Schnitzler","2121","Richard Beer-Hofmann","Richard Beer-Hofmann","1892","Directed","Arthur Schnitzler an Richard Beer-Hofmann","23"

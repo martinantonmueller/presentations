@@ -42774,5 +42774,15 @@
          <persName pmb-ref="10815">Hermann Bahr</persName>
       </correspAction>
    </correspDesc>
+    <correspDesc>
+        <correspAction type="sent">
+            <persName pmb-ref="11485">Paul Goldmann</persName>
+            <date when="1891-07-11" n="01">[vor dem 12. 7. 1891]</date>
+        </correspAction>
+        <correspAction type="received">
+            <persName pmb-ref="11740">Hugo von Hofmannsthal</persName>
+            <date when="1891-07-13">[am oder vor dem 13. 7. 1891]</date>
+        </correspAction>
+    </correspDesc>
 
 </corresp>

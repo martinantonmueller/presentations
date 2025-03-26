@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This contains all correspondences sorted 
-in pieces/year and direction -->
-<network>
+<network xmlns:tei="http://www.tei-c.org/ns/1.0">
    <connection>
       <source>
          <name>Paul Goldmann</name>
@@ -229,6 +227,18 @@ in pieces/year and direction -->
       </target>
       <year>1891</year>
       <weight>2</weight>
+   </connection>
+   <connection>
+      <source>
+         <name>Paul Goldmann</name>
+         <id>11485</id>
+      </source>
+      <target>
+         <name>Hugo von Hofmannsthal</name>
+         <id>11740</id>
+      </target>
+      <year>1891</year>
+      <weight>1</weight>
    </connection>
    <connection>
       <source>

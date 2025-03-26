@@ -1,0 +1,31 @@
+Source,Target,Weight
+Arthur Schnitzler,Richard Beer-Hofmann,534
+Arthur Schnitzler,Hugo von Hofmannsthal,176
+Arthur Schnitzler,Hermann Bahr,155
+Arthur Schnitzler,Felix Salten,113
+Arthur Schnitzler,Paul Goldmann,10
+Richard Beer-Hofmann,Arthur Schnitzler,286
+Richard Beer-Hofmann,Hugo von Hofmannsthal,40
+Richard Beer-Hofmann,Hermann Bahr,12
+Richard Beer-Hofmann,Felix Salten,15
+Richard Beer-Hofmann,Paul Goldmann,0
+Hugo von Hofmannsthal,Arthur Schnitzler,429
+Hugo von Hofmannsthal,Richard Beer-Hofmann,192
+Hugo von Hofmannsthal,Hermann Bahr,320
+Hugo von Hofmannsthal,Felix Salten,101
+Hugo von Hofmannsthal,Paul Goldmann,0
+Hermann Bahr,Arthur Schnitzler,204
+Hermann Bahr,Richard Beer-Hofmann,73
+Hermann Bahr,Hugo von Hofmannsthal,121
+Hermann Bahr,Felix Salten,48
+Hermann Bahr,Paul Goldmann,0
+Felix Salten,Arthur Schnitzler,336
+Felix Salten,Richard Beer-Hofmann,0
+Felix Salten,Hugo von Hofmannsthal,36
+Felix Salten,Hermann Bahr,66
+Felix Salten,Paul Goldmann,0
+Paul Goldmann,Arthur Schnitzler,527
+Paul Goldmann,Richard Beer-Hofmann,38
+Paul Goldmann,Hugo von Hofmannsthal,1
+Paul Goldmann,Hermann Bahr,2
+Paul Goldmann,Felix Salten,0
