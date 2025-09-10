@@ -80,10 +80,26 @@ document.addEventListener('DOMContentLoaded', () => {
             return null;
         }
 
+        // Sortiere Knoten alphabetisch für konsistente Positionierung
+        const sortedNodeNames = Object.keys(nodes).sort();
+        const nodeCount = sortedNodeNames.length;
+        const radius = 300;
+
+        // Erstelle neues nodes Array mit festen Positionen
+        const positionedNodes = sortedNodeNames.map((nodeName, index) => {
+            const angle = (index / nodeCount) * 2 * Math.PI;
+            const node = nodes[nodeName];
+            return {
+                ...node,
+                x: radius * Math.cos(angle),
+                y: radius * Math.sin(angle)
+            };
+        });
+
         // Normalisierung der Knotengrößen
         const minNodeWeight = Math.min(...Object.values(nodeWeightSums)),
               maxNodeWeight = Math.max(...Object.values(nodeWeightSums));
-        allNodes.forEach(node => {
+        positionedNodes.forEach(node => {
             const totalWeight = nodeWeightSums[node.id];
             const normalizedSize = minNodeSize + ((totalWeight - minNodeWeight) / (maxNodeWeight - minNodeWeight)) * (maxNodeSize - minNodeSize);
             node.marker.radius = normalizedSize;
@@ -96,12 +112,12 @@ document.addEventListener('DOMContentLoaded', () => {
             link.width = minLinkWidth + ((link.value - minLinkWeight) / (maxLinkWeight - minLinkWeight)) * (maxLinkWidth - minLinkWidth);
         });
 
-        return { nodes: allNodes, links, nodeCorrespondences };
+        return { nodes: positionedNodes, links, nodeCorrespondences };
     }
 
     // Funktion: Chart-Konfiguration aufbauen
-    // linkLength wird als Parameter übergeben (300 für das Diagramm ohne Slider, 100 für das Diagramm mit Slider)
-    function buildChartConfig(chartData, linkLength) {
+    // chartData enthält die Netzwerk-Daten für die Konfiguration
+    function buildChartConfig(chartData) {
         return {
             chart: {
                 type: 'networkgraph',
@@ -127,11 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 networkgraph: {
                     keys: ['from', 'to'],
                     layoutAlgorithm: {
-                        initialPositions: 'circle',
-                        enableSimulation: true,
-                        gravitationalConstant: 0,
-                        linkLength: linkLength,
-                        friction: -0.9
+                        enableSimulation: false
                     },
                     dataLabels: {
                         enabled: true,

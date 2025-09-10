@@ -68,7 +68,7 @@
                 
                 <!-- targetID -->
                 <xsl:value-of select="$quote"/>
-                <xsl:value-of select="*:target/*:name"/>
+                <xsl:value-of select="*:target/*:id"/>
                 <xsl:value-of select="$quote"/>
                 <xsl:value-of select="$separator"/>
                 

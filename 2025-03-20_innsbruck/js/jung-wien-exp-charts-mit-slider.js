@@ -192,10 +192,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
+            // Sortiere Knoten alphabetisch für konsistente Positionierung
+            const sortedNodeNames = Object.keys(nodes).sort();
+            const nodeCount = sortedNodeNames.length;
+            const radius = 300;
+
+            // Erstelle neues nodes Array mit festen Positionen
+            const positionedNodes = sortedNodeNames.map((nodeName, index) => {
+                const angle = (index / nodeCount) * 2 * Math.PI;
+                const node = nodes[nodeName];
+                return {
+                    ...node,
+                    x: radius * Math.cos(angle),
+                    y: radius * Math.sin(angle)
+                };
+            });
+
             // Skalierung der Node-Größen
             const minNodeWeight = Math.min(...Object.values(nodeWeightSums));
             const maxNodeWeight = Math.max(...Object.values(nodeWeightSums));
-            allNodes.forEach(node => {
+            positionedNodes.forEach(node => {
                 const totalWeight = nodeWeightSums[node.id];
                 const normalizedSize = minNodeSize + ((totalWeight - minNodeWeight) / (maxNodeWeight - minNodeWeight)) * (maxNodeSize - minNodeSize);
                 node.marker.radius = normalizedSize;
@@ -234,11 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     networkgraph: {
                         keys: ['from', 'to'],
                         layoutAlgorithm: {
-                            initialPositions: 'circle',
-                            enableSimulation: true,
-                            gravitationalConstant: 0,
-                            linkLength: 100,
-                            friction: -0.9
+                            enableSimulation: false
                         },
                         dataLabels: {
                             enabled: true,
@@ -263,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         fontSize: '30px' },
                         formatter: function () { return this.point.id; }
                     },
-                    nodes: allNodes,
+                    nodes: positionedNodes,
                     data: links,
                     point: {
                         events: {
