@@ -177,13 +177,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 nodeWeightSums[source] += weight;
                 nodeWeightSums[target] += weight;
 
-                links.push({
-                    from: source,
-                    to: target,
-                    value: weight,
-                    color: linkColor,
-                    width: weight
-                });
+                // Prüfe ob Link bereits existiert und aggregiere Gewichte
+                const existingLink = links.find(link => 
+                    (link.from === source && link.to === target) ||
+                    (link.from === target && link.to === source)
+                );
+                
+                if (existingLink) {
+                    existingLink.value += weight;
+                    console.log(`🔄 Aggregating: ${source}→${target} now has weight ${existingLink.value}`);
+                } else {
+                    links.push({
+                        from: source,
+                        to: target,
+                        value: weight,
+                        color: linkColor,
+                        width: weight
+                    });
+                }
             });
 
             const allNodes = Object.values(nodes);

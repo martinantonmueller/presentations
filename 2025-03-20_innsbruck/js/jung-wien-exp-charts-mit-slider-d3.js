@@ -71,11 +71,13 @@ document.addEventListener('DOMContentLoaded', () => {
         // Haupt-Gruppe für zoombare Elemente
         const g = svg.append('g');
 
-        // Simulation für Kräfte
+        // Simulation für Kräfte - komplett deaktiviert für feste Positionen
         const simulation = d3.forceSimulation()
-            .force('link', d3.forceLink().id(d => d.id).distance(80))
+            .force('link', d3.forceLink().id(d => d.id).distance(80).strength(0))
             .force('charge', d3.forceManyBody().strength(0))
-            .force('center', d3.forceCenter(width / 2, height / 2));
+            .force('center', null)
+            .alphaTarget(0)
+            .alpha(0);
 
         let allData = []; // Speichere alle Daten für Jahr-Filterung
 
@@ -154,8 +156,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Weise feste Positionen zu
             sortedNodes.forEach((node, index) => {
                 const angle = (index / nodeCount) * 2 * Math.PI;
-                node.fx = centerX + radius * Math.cos(angle);
-                node.fy = centerY + radius * Math.sin(angle);
+                node.x = centerX + radius * Math.cos(angle);
+                node.y = centerY + radius * Math.sin(angle);
+                node.fx = node.x;
+                node.fy = node.y;
             });
 
             // Normalisiere die Knotengrößen
@@ -214,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     .on('drag', dragged)
                     .on('end', dragended));
 
-            // Labels hinzufügen
+            // Knoten-Labels hinzufügen
             const labels = g.append('g')
                 .selectAll('text')
                 .data(sortedNodes)
@@ -228,6 +232,42 @@ document.addEventListener('DOMContentLoaded', () => {
                 .style('font-weight', 'bold')
                 .style('fill', '#333');
 
+            // Kanten-Labels hinzufügen (Gewichtswerte)
+            const linkLabelsGroup = g.append('g');
+            
+            // Weißer Hintergrund für Labels - dynamische Größe basierend auf Textlänge
+            const linkLabelBg = linkLabelsGroup
+                .selectAll('rect')
+                .data(links)
+                .join('rect')
+                .attr('rx', 3)
+                .attr('ry', 3)
+                .attr('width', d => {
+                    const textLength = d.weight.toString().length;
+                    if (textLength === 1) return 30;      // Einstellig: "5"
+                    else if (textLength === 2) return 42; // Zweistellig: "24"  
+                    else if (textLength === 3) return 54; // Dreistellig: "156"
+                    else return textLength * 14 + 16;     // Noch größer
+                })
+                .attr('height', 18)
+                .style('fill', 'white')
+                .style('stroke', '#333')
+                .style('stroke-width', 1.5)
+                .style('opacity', 0.9);
+
+            const linkLabels = linkLabelsGroup
+                .selectAll('text')
+                .data(links)
+                .join('text')
+                .text(d => d.weight)
+                .attr('font-size', '12px')
+                .attr('font-family', 'Arial, sans-serif')
+                .attr('text-anchor', 'middle')
+                .attr('dy', '0.35em')
+                .style('pointer-events', 'none')
+                .style('font-weight', 'bold')
+                .style('fill', '#000');
+
             // Tooltip für Knoten
             node.append('title')
                 .text(d => {
@@ -239,25 +279,69 @@ document.addEventListener('DOMContentLoaded', () => {
                     return tooltipText;
                 });
 
-            // Simulation aktualisieren
-            simulation.nodes(sortedNodes).on('tick', ticked);
-            simulation.force('link').links(links);
+            // Setze Positionen ohne Simulation
+            link
+                .attr('x1', d => {
+                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                    return sourceNode ? sourceNode.x : 0;
+                })
+                .attr('y1', d => {
+                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                    return sourceNode ? sourceNode.y : 0;
+                })
+                .attr('x2', d => {
+                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                    return targetNode ? targetNode.x : 0;
+                })
+                .attr('y2', d => {
+                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                    return targetNode ? targetNode.y : 0;
+                });
 
-            function ticked() {
-                link
-                    .attr('x1', d => d.source.x)
-                    .attr('y1', d => d.source.y)
-                    .attr('x2', d => d.target.x)
-                    .attr('y2', d => d.target.y);
+            node
+                .attr('cx', d => d.x)
+                .attr('cy', d => d.y);
 
-                node
-                    .attr('cx', d => d.x)
-                    .attr('cy', d => d.y);
+            labels
+                .attr('x', d => d.x)
+                .attr('y', d => d.y);
 
-                labels
-                    .attr('x', d => d.x)
-                    .attr('y', d => d.y);
-            }
+            // Positioniere Kanten-Labels und Hintergründe in der Mitte der Linien
+            linkLabelBg
+                .attr('x', d => {
+                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                    const textLength = d.weight.toString().length;
+                    let rectWidth;
+                    if (textLength === 1) rectWidth = 30;
+                    else if (textLength === 2) rectWidth = 42; 
+                    else if (textLength === 3) rectWidth = 54;
+                    else rectWidth = textLength * 14 + 16;
+                    return sourceNode && targetNode ? (sourceNode.x + targetNode.x) / 2 - rectWidth/2 : -rectWidth/2;
+                })
+                .attr('y', d => {
+                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                    return sourceNode && targetNode ? (sourceNode.y + targetNode.y) / 2 - 9 : -9;
+                });
+
+            linkLabels
+                .attr('x', d => {
+                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                    return sourceNode && targetNode ? (sourceNode.x + targetNode.x) / 2 : 0;
+                })
+                .attr('y', d => {
+                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                    return sourceNode && targetNode ? (sourceNode.y + targetNode.y) / 2 : 0;
+                });
+
+            // Simulation für Drag-Funktionalität
+            simulation
+                .nodes(sortedNodes)
+                .force('link')
+                .links(links);
 
             function dragstarted(event, d) {
                 if (!event.active) simulation.alphaTarget(0.3).restart();

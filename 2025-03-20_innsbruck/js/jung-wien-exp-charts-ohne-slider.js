@@ -63,7 +63,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                   nodeCorrespondences = {},
                                   nodeWeightSums = {};
                             const [nodeColor, linkColor, minNodeSize, maxNodeSize, minLinkWidth, maxLinkWidth] =
-                                  ['#000000', '#000000', 5, 20, 0.1, 10];
+                                  ['#000000', '#000000', 5, 20, 1, 15];
+                            console.log(`⚙️ Link width range: ${minLinkWidth}-${maxLinkWidth}`);
 
                             // Mapping für spezielle URLs
                             const nodeLinks = {
@@ -112,13 +113,24 @@ document.addEventListener('DOMContentLoaded', () => {
                                 nodeWeightSums[source] += weight;
                                 nodeWeightSums[target] += weight;
 
-                                links.push({
-                                    from: source,
-                                    to: target,
-                                    value: weight,
-                                    color: linkColor,
-                                    width: weight
-                                });
+                                // Prüfe ob Link bereits existiert und aggregiere Gewichte
+                                const existingLink = links.find(link => 
+                                    (link.from === source && link.to === target) ||
+                                    (link.from === target && link.to === source)
+                                );
+                                
+                                if (existingLink) {
+                                    existingLink.value += weight;
+                                    console.log(`🔄 Aggregating: ${source}→${target} now has weight ${existingLink.value}`);
+                                } else {
+                                    links.push({
+                                        from: source,
+                                        to: target,
+                                        value: weight,
+                                        color: linkColor,
+                                        width: weight
+                                    });
+                                }
                             });
 
                             const allNodes = Object.values(nodes);
@@ -127,26 +139,22 @@ document.addEventListener('DOMContentLoaded', () => {
                                 return;
                             }
 
-                            // Sortiere Knoten alphabetisch für konsistente Positionierung
-                            const sortedNodeNames = Object.keys(nodes).sort();
-                            const nodeCount = sortedNodeNames.length;
-                            const radius = 300;
-
-                            // Erstelle neues nodes Array mit festen Positionen
-                            const positionedNodes = sortedNodeNames.map((nodeName, index) => {
-                                const angle = (index / nodeCount) * 2 * Math.PI;
-                                const node = nodes[nodeName];
+                            // Erstelle nodes Array mit zufälligen Startpositionen
+                            const dynamicNodes = Object.values(nodes).map((node, index, array) => {
+                                // Verteile Knoten initial in einem Kreis um Überlappung zu vermeiden
+                                const angle = (index / array.length) * 2 * Math.PI;
+                                const radius = 200;
                                 return {
                                     ...node,
-                                    x: radius * Math.cos(angle),
-                                    y: radius * Math.sin(angle)
+                                    x: Math.cos(angle) * radius + Math.random() * 50 - 25,
+                                    y: Math.sin(angle) * radius + Math.random() * 50 - 25
                                 };
                             });
 
                             // Normalisiere die Knotengrößen basierend auf dem Gewicht
                             const minNodeWeight = Math.min(...Object.values(nodeWeightSums));
                             const maxNodeWeight = Math.max(...Object.values(nodeWeightSums));
-                            positionedNodes.forEach(node => {
+                            dynamicNodes.forEach(node => {
                                 const totalWeight = nodeWeightSums[node.id];
                                 const normalizedSize = minNodeSize + ((totalWeight - minNodeWeight) / (maxNodeWeight - minNodeWeight)) * (maxNodeSize - minNodeSize);
                                 node.marker.radius = normalizedSize;
@@ -155,8 +163,47 @@ document.addEventListener('DOMContentLoaded', () => {
                             // Normalisiere die Link-Breiten
                             const minLinkWeight = Math.min(...links.map(link => link.value));
                             const maxLinkWeight = Math.max(...links.map(link => link.value));
+                            console.log(`📊 Links: ${links.length}, weights: ${minLinkWeight}-${maxLinkWeight}`);
+                            
+                            // Debug: Prüfe wichtige Verbindungen in allen Ansichten
+                            const importantLinks = [
+                                ['Paul Goldmann', 'Arthur Schnitzler'],
+                                ['Richard Beer-Hofmann', 'Arthur Schnitzler'], 
+                                ['Paul Goldmann', 'Richard Beer-Hofmann'],
+                                ['Hugo von Hofmannsthal', 'Arthur Schnitzler']
+                            ];
+                            
+                            importantLinks.forEach(([name1, name2]) => {
+                                const link = links.find(l => 
+                                    (l.from === name1 && l.to === name2) ||
+                                    (l.from === name2 && l.to === name1)
+                                );
+                                if (link) {
+                                    console.log(`🔍 ${name1.split(' ').pop()}-${name2.split(' ').pop()}: weight=${link.value}`);
+                                }
+                            });
+                            
                             links.forEach(link => {
-                                link.width = minLinkWidth + ((link.value - minLinkWeight) / (maxLinkWeight - minLinkWeight)) * (maxLinkWidth - minLinkWidth);
+                                const normalizedWidth = minLinkWidth + ((link.value - minLinkWeight) / (maxLinkWeight - minLinkWeight)) * (maxLinkWidth - minLinkWidth);
+                                link.width = normalizedWidth;
+                            });
+                            
+                            // Debug: Zeige berechnete Breiten für wichtige Verbindungen
+                            importantLinks.forEach(([name1, name2]) => {
+                                const link = links.find(l => 
+                                    (l.from === name1 && l.to === name2) ||
+                                    (l.from === name2 && l.to === name1)
+                                );
+                                if (link) {
+                                    console.log(`📏 ${name1.split(' ').pop()}-${name2.split(' ').pop()}: weight=${link.value} → width=${link.width.toFixed(1)}px`);
+                                }
+                            });
+                            
+                            // Zeige die 3 dicksten Linien
+                            const topLinks = [...links].sort((a, b) => b.value - a.value).slice(0, 3);
+                            console.log(`🏆 Top 3 thickest lines:`);
+                            topLinks.forEach((link, i) => {
+                                console.log(`   ${i+1}. ${link.from.split(' ').pop()}-${link.to.split(' ').pop()}: weight=${link.value} width=${link.width.toFixed(1)}px`);
                             });
 
                             // Erstelle den Chart mit Highcharts in dem spezifizierten Container
@@ -168,6 +215,12 @@ document.addEventListener('DOMContentLoaded', () => {
                                     zoomType: 'xy'
                                 },
                                 title: { text: null },
+                                xAxis: {
+                                    visible: false
+                                },
+                                yAxis: {
+                                    visible: false
+                                },
                                 tooltip: {
                                     formatter: function () {
                                         if (this.point.isNode) {
@@ -185,15 +238,47 @@ document.addEventListener('DOMContentLoaded', () => {
                                     networkgraph: {
                                         keys: ['from', 'to'],
                                         layoutAlgorithm: {
-                                            enableSimulation: false
+                                            enableSimulation: true,
+                                            type: 'reingold-fruchterman',
+                                            initialPositions: 'random',
+                                            maxIterations: 500,
+                                            gravitationalConstant: 0,
+                                            friction: -0.75,
+                                            attractiveForce: function(d, k, link) {
+                                                // Starke gewichtsbasierte Anziehung
+                                                if (!link) return 0;
+                                                const weight = link ? link.value || 1 : 1;
+                                                // Exponentieller Anstieg für hohe Gewichte
+                                                const weightFactor = Math.pow(weight / 10, 1.5);
+                                                const force = Math.min(d * 0.02 * weightFactor, 50);
+                                                
+                                                // Debug: Log high-weight attractions
+                                                if (weight >= 30 && Math.random() < 0.01) { // 1% sampling
+                                                    console.log(`⚡ Attraction: weight=${weight} factor=${weightFactor.toFixed(2)} force=${force.toFixed(2)}`);
+                                                }
+                                                
+                                                return force;
+                                            },
+                                            repulsiveForce: function(d, k) {
+                                                // Standard Abstoßung aber verstärkt
+                                                return (k * k) / Math.max(d, 5);
+                                            },
+                                            maxSpeed: 100
                                         },
                                         dataLabels: {
                                             enabled: true,
                                             linkFormat: '',
-                                            allowOverlap: false,
-                                            style: { textOutline: 'none',
-                                            fontSize: '20px' },
-                                            formatter: function () { return this.point.id; }
+                                            allowOverlap: true,
+                                            style: { 
+                                                textOutline: '2px white',
+                                                fontSize: '16px' 
+                                            },
+                                            formatter: function () { 
+                                                // Zeige nur den Nachnamen
+                                                const fullName = this.point.id;
+                                                const parts = fullName.split(' ');
+                                                return parts[parts.length - 1]; // Letzter Teil = Nachname
+                                            }
                                         },
                                         link: {
                                             color: linkColor,
@@ -205,12 +290,19 @@ document.addEventListener('DOMContentLoaded', () => {
                                     dataLabels: {
                                         enabled: true,
                                         linkFormat: '',
-                                        allowOverlap: false,
-                                        style: { textOutline: 'none',
-                                        fontSize: '20px' },
-                                        formatter: function () { return this.point.id; }
+                                        allowOverlap: true,
+                                        style: { 
+                                            textOutline: '2px white',
+                                            fontSize: '16px' 
+                                        },
+                                        formatter: function () { 
+                                            // Zeige nur den Nachnamen
+                                            const fullName = this.point.id;
+                                            const parts = fullName.split(' ');
+                                            return parts[parts.length - 1]; // Letzter Teil = Nachname
+                                        }
                                     },
-                                    nodes: positionedNodes,
+                                    nodes: dynamicNodes,
                                     data: links,
                                     point: {
                                         events: {
@@ -232,7 +324,9 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         // Event-Listener für das Dropdown: Bei Änderung wird die ausgewählte CSV geladen
-        csvDropdown.addEventListener('change', () => {
+        csvDropdown.addEventListener('change', (event) => {
+            const selectedText = event.target.options[event.target.selectedIndex].text;
+            console.log(`\n🔄 === Wechsel zu: ${selectedText} ===`);
             loadCSV(csvDropdown.value);
         });
 
@@ -240,7 +334,15 @@ document.addEventListener('DOMContentLoaded', () => {
         loadCSV(csvDropdown.value);
     }
 
-    // Initialisierung für beide Chart-Container
-    initChart('container-ohne-slider-left', 'csvDropdown-left');
-    initChart('container-ohne-slider-right', 'csvDropdown-right');
+    // Initialisierung für Chart-Container
+    // Prüfe welche Container existieren und initialisiere entsprechend
+    if (document.getElementById('container-ohne-slider')) {
+        initChart('container-ohne-slider', 'csvDropdown-ohne-slider');
+    }
+    if (document.getElementById('container-ohne-slider-left')) {
+        initChart('container-ohne-slider-left', 'csvDropdown-left');
+    }
+    if (document.getElementById('container-ohne-slider-right')) {
+        initChart('container-ohne-slider-right', 'csvDropdown-right');
+    }
 });

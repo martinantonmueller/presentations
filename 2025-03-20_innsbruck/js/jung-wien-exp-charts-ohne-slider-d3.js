@@ -1,5 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Document is ready');
+    console.log('🚀 Document is ready - initializing chart');
+    
+    // Verhindere mehrfache Initialisierung
+    if (window.chartInitialized) {
+        console.log('⚠️ Chart already initialized, skipping');
+        return;
+    }
+    window.chartInitialized = true;
 
     // Liste der verfügbaren CSV-Dateien (Label: URL)
     const csvFiles = {
@@ -65,15 +72,27 @@ document.addEventListener('DOMContentLoaded', () => {
         // Haupt-Gruppe für zoombare Elemente
         const g = svg.append('g');
 
-        // Simulation für Kräfte
+        // Simulation für Kräfte - komplett deaktiviert für feste Positionen
         const simulation = d3.forceSimulation()
-            .force('link', d3.forceLink().id(d => d.id).distance(100))
+            .force('link', d3.forceLink().id(d => d.id).distance(100).strength(0))
             .force('charge', d3.forceManyBody().strength(0))
-            .force('center', d3.forceCenter(width / 2, height / 2));
+            .force('center', null)
+            .alphaTarget(0)
+            .alpha(0);
 
         // Funktion zum Laden und Parsen der CSV-Datei sowie zum Erstellen des Charts
         const loadCSV = (csvUrl) => {
             console.log('Loading CSV from:', csvUrl);
+            // Vollständige Bereinigung vor neuem Laden
+            svg.selectAll('*').remove();
+            // G-Element neu erstellen und Zoom wieder anwenden
+            const newG = svg.append('g');
+            svg.call(zoom);
+            // Zoom-Handler auf neues G-Element anwenden
+            zoom.on('zoom', (event) => {
+                newG.attr('transform', event.transform);
+            });
+            
             fetch(csvUrl)
                 .then(response => response.ok ? response.text() : Promise.reject('Network response was not ok ' + response.statusText))
                 .then(csvText => {
@@ -82,6 +101,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     Papa.parse(csvText, {
                         header: true,
                         complete: ({ data }) => {
+                            console.log(`=== Loading ${csvUrl.split('/').pop()} ===`);
+                            // Global counter für Debug
+                            if (!window.visualizationCounter) window.visualizationCounter = 0;
+                            window.visualizationCounter++;
+                            console.log(`🔢 Visualization call #${window.visualizationCounter}`);
+                            
                             if (!data.length) {
                                 console.error('Parsed data is empty or incorrectly formatted');
                                 return;
@@ -102,9 +127,9 @@ document.addEventListener('DOMContentLoaded', () => {
                                     return console.warn('Row missing source or target:', row);
                                 }
 
-                                // Debug: Log Paul Goldmann connections
-                                if (source === 'Paul Goldmann' || target === 'Paul Goldmann') {
-                                    console.log('Paul Goldmann connection:', source, '→', target, 'weight:', weight);
+                                // Debug: Log very high weight connections only
+                                if (weight > 50) {
+                                    console.log(`🔍 Very high weight: ${source}→${target} weight:${weight}`);
                                 }
 
                                 if (!nodes.has(source)) {
@@ -141,8 +166,18 @@ document.addEventListener('DOMContentLoaded', () => {
                             // Nodes Array für D3
                             const nodesArray = Array.from(nodes.values());
                             
+                            // Minimal dataset info
+                            const weights = links.map(l => l.weight);
+                            const maxWeight = Math.max(...weights);
+                            if (maxWeight > 80) {
+                                console.log(`📊 Dataset: ${links.length} links, max weight: ${maxWeight}`);
+                            }
+                            
                             // Sortiere Knoten alphabetisch für konsistente Positionierung
                             const sortedNodes = nodesArray.sort((a, b) => a.id.localeCompare(b.id));
+                            
+                            // Debug: Log sorted nodes
+                            console.log('Sorted nodes:', sortedNodes.map(n => n.id));
                             const nodeCount = sortedNodes.length;
                             const radius = 250;
                             const centerX = width / 2;
@@ -151,8 +186,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             // Weise feste Positionen zu
                             sortedNodes.forEach((node, index) => {
                                 const angle = (index / nodeCount) * 2 * Math.PI;
-                                node.fx = centerX + radius * Math.cos(angle); // fx = fixed x position
-                                node.fy = centerY + radius * Math.sin(angle); // fy = fixed y position
+                                node.x = centerX + radius * Math.cos(angle);
+                                node.y = centerY + radius * Math.sin(angle);
+                                node.fx = node.x; // fx = fixed x position
+                                node.fy = node.y; // fy = fixed y position
                             });
 
                             // Normalisiere die Knotengrößen basierend auf dem Gewicht
@@ -174,25 +211,34 @@ document.addEventListener('DOMContentLoaded', () => {
                             const maxLinkWidth = 8;
 
                             links.forEach(link => {
-                                link.width = minLinkWidth + ((link.weight - minLinkWeight) / (maxLinkWeight - minLinkWeight)) * (maxLinkWidth - minLinkWidth);
+                                link.width = minLinkWidth + ((link.weight - minLinkWeight) / (maxLinkWeight - minLinkWeight || 1)) * (maxLinkWidth - minLinkWidth);
                             });
+                            
+                            // Minimal width calculation info
+                            if (maxLinkWeight > 80) {
+                                console.log(`🔗 Width: ${minLinkWeight}-${maxLinkWeight} → ${minLinkWidth}-${maxLinkWidth}px`);
+                            }
 
-                            // Lösche vorherige Visualisierung
-                            g.selectAll('*').remove();
+                            // Lösche vorherige Visualisierung komplett
+                            newG.selectAll('*').remove();
 
                             // Links zeichnen
-                            const link = g.append('g')
-                                .attr('stroke', '#000')
+                            const linkGroup = newG.append('g').attr('class', 'links');
+                            const link = linkGroup
                                 .selectAll('line')
                                 .data(links)
-                                .join('line')
+                                .enter()
+                                .append('line')
+                                .attr('stroke', '#000')
                                 .attr('stroke-width', d => d.width);
 
                             // Knoten zeichnen
-                            const node = g.append('g')
+                            const nodeGroup = newG.append('g').attr('class', 'nodes');
+                            const node = nodeGroup
                                 .selectAll('circle')
                                 .data(sortedNodes)
-                                .join('circle')
+                                .enter()
+                                .append('circle')
                                 .attr('r', d => d.radius)
                                 .attr('fill', '#000')
                                 .on('click', (event, d) => {
@@ -205,11 +251,13 @@ document.addEventListener('DOMContentLoaded', () => {
                                     .on('drag', dragged)
                                     .on('end', dragended));
 
-                            // Labels hinzufügen - positioniert außerhalb der Knoten
-                            const labels = g.append('g')
+                            // Knoten-Labels hinzufügen - positioniert außerhalb der Knoten
+                            const labelsGroup = newG.append('g').attr('class', 'labels');
+                            const labels = labelsGroup
                                 .selectAll('text')
                                 .data(sortedNodes)
-                                .join('text')
+                                .enter()
+                                .append('text')
                                 .text(d => d.id)
                                 .attr('font-size', '16px')
                                 .attr('font-family', 'Arial, sans-serif')
@@ -218,6 +266,61 @@ document.addEventListener('DOMContentLoaded', () => {
                                 .style('pointer-events', 'none')
                                 .style('font-weight', 'bold')
                                 .style('fill', '#333');
+
+                            // Kanten-Labels hinzufügen (Gewichtswerte)
+                            const linkLabelsGroup = newG.append('g').attr('class', 'link-labels');
+                            
+                            // Lösche alle vorherigen Label-Elemente explizit
+                            linkLabelsGroup.selectAll('*').remove();
+                            
+                            // Labels werden neu erstellt
+                            
+                            // Weißer Hintergrund für Labels - dynamische Größe basierend auf Textlänge
+                            const linkLabelBg = linkLabelsGroup
+                                .selectAll('rect')
+                                .data(links)
+                                .enter()
+                                .append('rect')
+                                .attr('rx', 4)
+                                .attr('ry', 4)
+                                .attr('width', d => {
+                                    const textLength = d.weight.toString().length;
+                                    let rectWidth;
+                                    if (textLength === 1) {
+                                        rectWidth = 30; // Einstellig: "5" 
+                                    } else if (textLength === 2) {
+                                        rectWidth = 46; // Zweistellig: "24"
+                                    } else if (textLength === 3) {
+                                        rectWidth = 68; // Dreistellig: "156" - deutlich mehr Platz
+                                    } else {
+                                        rectWidth = textLength * 20 + 16; // Noch größer mit mehr Padding
+                                    }
+                                    // Log only very large weights to reduce spam
+                                    if (d.weight >= 50) {
+                                        // Removed debug output to reduce console noise
+                                    }
+                                    return rectWidth;
+                                })
+                                .attr('height', 22)
+                                .style('fill', 'white')
+                                .style('stroke', 'none')
+                                .style('filter', 'drop-shadow(0px 1px 2px rgba(0,0,0,0.3))');
+
+                            const linkLabels = linkLabelsGroup
+                                .selectAll('text')
+                                .data(links)
+                                .enter()
+                                .append('text')
+                                .text(d => d.weight)
+                                .attr('font-size', '16px')
+                                .attr('font-family', 'Arial, sans-serif')
+                                .attr('text-anchor', 'middle')
+                                .attr('dy', '0.35em')
+                                .style('pointer-events', 'none')
+                                .style('font-weight', 'bold')
+                                .style('fill', '#000');
+                            
+                            // Labels erfolgreich erstellt
 
                             // Tooltip für Knoten
                             node.append('title')
@@ -230,29 +333,74 @@ document.addEventListener('DOMContentLoaded', () => {
                                     return tooltipText;
                                 });
 
-                            // Simulation aktualisieren
+                            // Setze Positionen ohne Simulation
+                            link
+                                .attr('x1', d => {
+                                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                                    return sourceNode ? sourceNode.x : 0;
+                                })
+                                .attr('y1', d => {
+                                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                                    return sourceNode ? sourceNode.y : 0;
+                                })
+                                .attr('x2', d => {
+                                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                                    return targetNode ? targetNode.x : 0;
+                                })
+                                .attr('y2', d => {
+                                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                                    return targetNode ? targetNode.y : 0;
+                                });
+
+                            node
+                                .attr('cx', d => d.x)
+                                .attr('cy', d => d.y);
+
+                            labels
+                                .attr('x', d => d.x)
+                                .attr('y', d => d.y);
+
+                            // Positioniere Kanten-Labels und Hintergründe in der Mitte der Linien
+                            linkLabelBg
+                                .attr('x', d => {
+                                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                                    const textLength = d.weight.toString().length;
+                                    let rectWidth;
+                                    if (textLength === 1) {
+                                        rectWidth = 30;
+                                    } else if (textLength === 2) {
+                                        rectWidth = 46;
+                                    } else if (textLength === 3) {
+                                        rectWidth = 68;
+                                    } else {
+                                        rectWidth = textLength * 20 + 16;
+                                    }
+                                    return sourceNode && targetNode ? (sourceNode.x + targetNode.x) / 2 - rectWidth/2 : -rectWidth/2;
+                                })
+                                .attr('y', d => {
+                                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                                    return sourceNode && targetNode ? (sourceNode.y + targetNode.y) / 2 - 11 : -11;
+                                });
+
+                            linkLabels
+                                .attr('x', d => {
+                                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                                    return sourceNode && targetNode ? (sourceNode.x + targetNode.x) / 2 : 0;
+                                })
+                                .attr('y', d => {
+                                    const sourceNode = sortedNodes.find(n => n.id === d.source);
+                                    const targetNode = sortedNodes.find(n => n.id === d.target);
+                                    return sourceNode && targetNode ? (sourceNode.y + targetNode.y) / 2 : 0;
+                                });
+
+                            // Simulation für Drag-Funktionalität
                             simulation
                                 .nodes(sortedNodes)
-                                .on('tick', ticked);
-
-                            simulation.force('link')
+                                .force('link')
                                 .links(links);
-
-                            function ticked() {
-                                link
-                                    .attr('x1', d => d.source.x)
-                                    .attr('y1', d => d.source.y)
-                                    .attr('x2', d => d.target.x)
-                                    .attr('y2', d => d.target.y);
-
-                                node
-                                    .attr('cx', d => d.x)
-                                    .attr('cy', d => d.y);
-
-                                labels
-                                    .attr('x', d => d.x)
-                                    .attr('y', d => d.y);
-                            }
 
                             function dragstarted(event, d) {
                                 if (!event.active) simulation.alphaTarget(0.3).restart();
@@ -277,15 +425,17 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         // Event-Listener für das Dropdown: Bei Änderung wird die ausgewählte CSV geladen
-        csvDropdown.addEventListener('change', () => {
-            loadCSV(csvDropdown.value);
+        csvDropdown.addEventListener('change', (event) => {
+            const selectedValue = event.target.value;
+            const selectedText = event.target.options[event.target.selectedIndex].text;
+            console.log(`🔄 Loading: ${selectedText}`);
+            loadCSV(selectedValue);
         });
 
         // Initiale CSV-Ladung anhand der ersten Option im Dropdown
         loadCSV(csvDropdown.value);
     }
 
-    // Initialisierung für beide Chart-Container
-    initChart('container-ohne-slider-left', 'csvDropdown-left');
-    initChart('container-ohne-slider-right', 'csvDropdown-right');
+    // Initialisierung für Chart-Container
+    initChart('container-ohne-slider', 'csvDropdown-ohne-slider');
 });
